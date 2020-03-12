@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/romanenkoandrew/friday-coding/issues"
   },
-  "homepage": "https://github.com/romanenkoandrew/friday-coding#readme"
+  "homepage": "https://github.com/romanenkoandrew/friday-coding#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
