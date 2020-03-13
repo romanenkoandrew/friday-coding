@@ -7,10 +7,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include media-tablet {
+        padding-left: 24px;
+    }
 }
-.header__buttons>.button {
-    margin-left: 14px;
+.header__logo-line {
+    display: flex;
 }
-.header__buttons>.button:first-child {
-    margin-left: 0;
-}
+ .header__buttons {
+    >.buuton {
+        margin-left: 14px;
+        &:first-child {
+            margin-left: 14px;
+            margin-left: 0;
+        }
+    }
+    @include media-mobile {
+        display: none;
+    }
+ }
+// .header__hamburger {
+//     margin-right: 37px;
+// }
+// .header__logo-line  {
+//     display: flex;
+// }
